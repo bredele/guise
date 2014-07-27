@@ -8,7 +8,7 @@ var guise = require('..');
 
 describe("format/filter data", function() {
 
-	it('should format data', function() {
+	it('should filter with function', function() {
 		var format = guise(function(str) {
 			return str.toUpperCase();
 		});
