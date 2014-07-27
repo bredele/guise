@@ -24,4 +24,14 @@ describe("format/filter data", function() {
 		assert.equal(format('hello', ' world!'), 'HELLO world!');
 	});
 
+	it('should filter with multiple functions', function() {
+		var format = guise(function(str) {
+			return str.toUpperCase();
+		}, function(result) {
+			return result + ' world!';
+		});
+
+		assert.equal(format('hello'), 'HELLO world!');
+	});
+
 });
