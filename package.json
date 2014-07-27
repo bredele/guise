@@ -1,6 +1,6 @@
 {
   "name": "guise",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "your old data in a new guise",
   "main": "index.js",
   "directories": {
