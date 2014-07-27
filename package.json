@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/bredele/guise/issues"
   },
-  "homepage": "https://github.com/bredele/guise"
+  "homepage": "https://github.com/bredele/guise",
+  "devDependencies": {
+    "mocha": "^1.21.0"
+  }
 }
