@@ -1,0 +1,29 @@
+{
+  "name": "guise",
+  "version": "0.0.0",
+  "description": "your old data in a new guise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bredele/guise.git"
+  },
+  "keywords": [
+    "data",
+    "model",
+    "store",
+    "format",
+    "filter"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/guise/issues"
+  },
+  "homepage": "https://github.com/bredele/guise"
+}
