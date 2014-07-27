@@ -1,7 +1,10 @@
 
 
 /**
- * Mod constructor.
+ * Guise.
+ * 
+ * @param {Function}
+ * @return {Function}
  * @api public
  */
 
