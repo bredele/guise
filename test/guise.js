@@ -34,4 +34,36 @@ describe("format/filter data", function() {
 		assert.equal(format('hello'), 'HELLO world!');
 	});
 
+	describe("curry", function() {
+
+		it('should curry filters', function() {
+			var format = guise(function(str) {
+				return str.toUpperCase();
+			});
+			format(function(result) {
+				return result + ' world!';
+			});
+			assert.equal(format('hello'), 'HELLO world!');
+		});
+
+
+	});
+	
+
 });
+
+// var format = guise(function() {
+	
+// });
+
+// format(function() {
+	
+// });
+
+// format(function() {
+	
+// }, function() {
+	
+// });
+
+// format('hello');
