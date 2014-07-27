@@ -1,0 +1,14 @@
+{
+  "name": "guise",
+  "repo": "bredele/guise",
+  "description": "your old data in a new guise",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
